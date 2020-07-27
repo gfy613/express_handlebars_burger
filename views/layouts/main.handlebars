@@ -2,26 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 		<title>Burgers!</title>
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="/assets/js/burgers.js"></script>
 	</head>
 	<body>
-		<h1>Burgers</h1>
-
-<h2>Add a Burger</h2>
-<form class="create-form" action="/" method="POST">
-
-  <div class="form-group">
-    <label for="burger">Burger Name:</label>
-    <input type="text" id="burger" name="name">
-  </div>
-  <button type="submit">Add Burger</button>
-  
-</form>
-
+	<div class ="container">
+		<div class="jumbotron">	
+		<img src="/assets/images/burger.png" width="600" alt="burger" style="display: block; margin-left: auto; margin-right: auto;" />	
+		<h1>BURGERS R US!!</h1>
+		</div>
+	</div>	
+	<div class= "container intro">
+		<h2>Add a Burger</h2>
+			<form class="create-form" action="/" method="POST">
+  				<div class="form-group">
+   				 <label for="burger">Burger Name:</label>
+   				 <input type="text" id="burger" name="name">
+  				</div>
+  				<button type="submit">Add Burger</button>  
+			</form>
+	</div>
+	<br>
 
 		{{{ body }}}
 	</body>

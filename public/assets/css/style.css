@@ -1,3 +1,8 @@
+.jumbotron{
+  background-color: rgb(61, 177, 231);
+  justify-content: center;
+  align-content: center;
+}
 li {
   padding: 5px;
   margin: 5px;
@@ -15,5 +20,28 @@ li {
 }
 
 .form-group {
+  align-content: center;
+  justify-content: center;
   margin-bottom: 5px;
 }
+
+body {
+  background-color:  orange;
+
+
+}
+
+.intro {
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.panel-default {
+  background-color: paleturquoise;
+}
+
+.panel-heading {
+  background-color: paleturquoise;
+}
+
