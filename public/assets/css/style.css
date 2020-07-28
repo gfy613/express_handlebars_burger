@@ -2,7 +2,10 @@
   background-color: rgb(61, 177, 231);
   justify-content: center;
   align-content: center;
+  text-align: center;
 }
+
+
 li {
   padding: 5px;
   margin: 5px;
